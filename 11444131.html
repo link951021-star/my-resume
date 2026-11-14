@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>林宇晟的個人履歷網頁</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 導覽列保持在最上方，選項靠右 -->
+    <nav>
+        <div class="nav-container">
+            <a href="#basic">基本資料</a>
+            <a href="#skills">技能</a>
+            <a href="#experience">經歷</a>
+            <a href="#contact">聯絡資訊</a>
+        </div>
+    </nav>
+
+    <!-- Header 區塊 -->
+    <header>
+        <div class="header-container">
+            <!-- 左邊：個人大頭貼與基本資訊（已加上 image/ 路徑） -->
+            <div class="header-left">
+                <img src="image/image01.jpg" alt="個人照片" class="profile-pic">
+                <div class="header-text">
+                    <h1>林宇晟</h1>
+                    <p>學校系級：中原大學資管二甲</p>
+                    <p>工作經歷：寒暑期短暫兼職</p>
+                    <p>Slogan：越努力，越幸運</p>
+                </div>
+            </div>
+            <!-- 右邊：自我介紹 -->
+            <div class="header-right">
+                <h2>自我介紹</h2>
+                <p>嗨！我是林宇晟，目前就讀中原大學資訊管理學系二年甲班。在課業學習與短暫的工作經歷中，我培養了解決問題的耐心與團隊協作的能力。我始終相信『越努力，越幸運』，因此面對各種新的挑戰時，我總是抱持著主動學習、勇於嘗試的態度，只要堅持不懈，運氣都會慢慢地為我聚攏而來。我期許自己能在資管的領域中，持續累積實戰經驗，朝成為優秀的專業人才邁進。</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- 下方區塊：左邊放基本資料，右邊放技能 -->
+        <div class="top-section-wrapper">
+            <section class="sec-left" id="basic">
+                <h2>基本資料</h2>
+                <p><strong>身分狀態：</strong>學生（中原大學資管二甲）</p>
+                <p><strong>聯絡電話：</strong>0976845667</p>
+                <p><strong>個人特質：</strong>成熟、務實、穩重</p>
+                <p><strong>專業背景摘要：</strong>具備 Python 與 Java 的基本編寫能力，並擁有基礎的英文與西班牙文能力。在面對各項事務時，我總是秉持著穩重與務實的態度去面對與解決。</p>
+            </section>
+            
+            <section class="sec-right" id="skills">
+                <h2>技能</h2>
+                <div class="skill-group">
+                    <label>Python</label>
+                    <div class="skill-bar"><div class="skill-fill" style="width: 85%;"></div></div>
+                    
+                    <label>Java</label>
+                    <div class="skill-bar"><div class="skill-fill" style="width: 75%;"></div></div>
+                    
+                    <label>Html/CSS</label>
+                    <div class="skill-bar"><div class="skill-fill" style="width: 90%;"></div></div>
+                    
+                    <label>英文</label>
+                    <div class="skill-bar"><div class="skill-fill" style="width: 80%;"></div></div>
+                    
+                    <label>西班牙文</label>
+                    <div class="skill-bar"><div class="skill-fill" style="width: 50%;"></div></div>
+                </div>
+            </section>
+        </div>
+
+        <section class="full-section" id="experience">
+            <h2>經歷</h2>
+            <div class="exp-box">
+                <div class="exp-title">大一下服務學習淨灘</div>
+                <div class="exp-img"><img src="image/image02.png" alt="淨灘照片"></div>
+                <div class="exp-text">大一下我前往林口嘉寶沙灘淨灘，第一次參加淨灘活動的我，除了意識到海灘比我想像的更加髒亂，也是第一次為環境盡了自己的一份力。</div>
+            </div>
+            <div class="exp-box">
+                <div class="exp-title">管理學課堂榮獲服務學習獎</div>
+                <div class="exp-img"><img src="image/image05.jpg" alt="管理學獎狀照片"></div>
+                <div class="exp-text">在大一下的管理學課堂上，我獲得了服務學習的獎狀，非常感謝我的組員願意將票投給我，肯定我在小組中做出的貢獻。</div>
+            </div>
+            <div class="exp-box">
+                <div class="exp-title">參加資管電競盃</div>
+                <div class="exp-img"><img src="image/image06.jpg" alt="電競盃照片"></div>
+                <div class="exp-text">在大一上學期的時候，我與朋友們參加了系學會舉辦的電競盃，雖然最終的結果不如人意，但我很享受與朋友們並肩作戰的感覺。</div>
+            </div>
+        </section>
+
+        <section class="full-section" id="contact">
+            <h2>聯絡資訊</h2>
+            <table class="contact-table">
+                <tr>
+                    <th style="width: 20%;">IG</th>
+                    <td style="width: 30%;">soyoroger</td>
+                    <td><a href="https://instagram.com/soyoroger" target="_blank">社群帳號連結</a></td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td>link951021@gmail.com</td>
+                    <td><a href="mailto:link951021@gmail.com">電子郵件信箱</a></td>
+                </tr>
+                <tr>
+                    <th>電話</th>
+                    <td>0976845667</td>
+                    <td><a href="tel:0976845667">聯絡電話號碼</a></td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <h3>與我聯繫 / 社群媒體</h3>
+        <p>
+            <a href="https://instagram.com/soyoroger" target="_blank">Instagram</a> | 
+            <a href="mailto:link951021@gmail.com">寄送 Email</a> | 
+            <a href="tel:0976845667">撥打電話</a>
+        </p>
+    </footer>
+
+</body>
+</html>
